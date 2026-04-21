@@ -1,10 +1,10 @@
 # Team Information
 
 ## Members
-- **Name1:** Akash M P  
-  **SRN1:** PES1UG24CS040  
-- **Name2:** Aditya T J  
-  **SRN2:** PES1UG24CS031  
+- **Name1:** Dinesh Ashok Jadage 
+  **SRN1:** PES1UG25CS813  
+- **Name2:** Kaushik 
+  **SRN2:** PES1UG24CS222
 
 ---
 
