@@ -2,9 +2,9 @@
 
 ## Members
 - **Name1:** Dinesh Ashok Jadage 
-  **SRN1:** PES1UG25CS813  
+- **SRN1:** PES1UG25CS813  
 - **Name2:** Kaushik 
-  **SRN2:** PES1UG24CS222
+- **SRN2:** PES1UG24CS222
 
 ---
 
@@ -261,13 +261,14 @@ What to compare:
 
 ### 1. Multi-container supervision
 
-![Multi-container supervision](./screenshots/01-multi-container.png)
+<img width="911" height="542" alt="01-multi-container" src="https://github.com/user-attachments/assets/9d29dd6e-9f4d-48ec-9601-1654bdaf2ccb" />
 
 Two containers running under one supervisor process.
 
 ### 2. Metadata tracking
 
-![Metadata tracking](./screenshots/02-ps-metadata.png)
+<img width="897" height="132" alt="02-ps-metadata" src="https://github.com/user-attachments/assets/dca75ed4-e16d-4d1f-a21e-def6dc271e2d" />
+
 
 `./engine ps` showing container ID, host PID, state, configured limits, exit details, and log path.
 
