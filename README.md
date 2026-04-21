@@ -274,31 +274,32 @@ Two containers running under one supervisor process.
 
 ### 3. Bounded-buffer logging
 
-![Logging](./screenshots/03-logging.png)
+<img width="890" height="253" alt="03-logging" src="https://github.com/user-attachments/assets/835ab2ef-2f11-40e6-b005-635dc18cf730" />
 
 Container output captured through the supervisor logging pipeline and written into per-container log files.
 
 ### 4. CLI and IPC
 
-![CLI IPC](./screenshots/04-cli-ipc.png)
+<img width="890" height="281" alt="04-cli-ipc" src="https://github.com/user-attachments/assets/3663d120-9ebe-415c-851e-94d22fb8c9ea" />
 
 Short-lived CLI clients communicate with the long-running supervisor over the UNIX domain socket at `/tmp/mini_runtime.sock`.
 
 ### 5. Soft-limit and hard-limit enforcement
 
-![Soft and hard limits](./screenshots/05-soft-hard-limit.png)
+<img width="915" height="305" alt="05-soft-hard-limit" src="https://github.com/user-attachments/assets/228936b4-13cf-4f1d-9fa2-635d2729a5a2" />
+
 
 The kernel monitor first emits a soft-limit warning, then crosses the hard limit and kills the container. The supervisor records the final state as `killed`.
 
 ### 6. Scheduling experiment
 
-![Scheduling Experiment](./screenshots/06-scheduler.png)
+<img width="910" height="897" alt="06-scheduler" src="https://github.com/user-attachments/assets/c9b1c808-88f7-4230-bd4e-1c36816ad4ae" />
 
 Concurrent CPU-bound and I/O-oriented workloads used to observe Linux scheduling behavior.
 
 ### 7. Clean teardown
 
-![Clean teardown](./screenshots/07-clean-teardown.png)
+<img width="909" height="623" alt="07-clean-teardown" src="https://github.com/user-attachments/assets/5b93a962-5327-4154-8c9c-0ac67b338f9f" />
 
 Stopped or exited containers are reaped cleanly and no stale processes remain.
 
